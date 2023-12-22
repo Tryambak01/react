@@ -1,0 +1,15 @@
+#start of course
+
+props and hooks.
+reusability components.
+
+Additional :
+Redux, Redux toolkit, context API etc used for state management.
+Appwrite , backend as a service.
+
+After react : Contribute to open source project freeAPI.API 
+
+To make a git repository , refer crete new peoject video from hitesh choudary react course.
+Once you make a repo , you need to intialise git , make a commit , change branch , then make a remote origin and push to that origin.
+
+
