@@ -12,4 +12,17 @@ After react : Contribute to open source project freeAPI.API
 To make a git repository , refer crete new peoject video from hitesh choudary react course.
 Once you make a repo , you need to intialise git , make a commit , change branch , then make a remote origin and push to that origin.
 
+Theres two ways to create react-app , 
+1) npx create-react-app appname , this takes a lot of time.
+2) npm create vite@latest  , (vite is a bundler) (also you have to install each thing from here , to do that do npm i)
 
+package.json file is the heart of the project , here you can check all the dependencies installed in the project.
+To run the application you need to invoke scripts from package.json
+
+To run cra : npm run start
+To run vite : npm run dev
+
+In cra , react scripts are present in dependencies and are excecuted when npm start takes place. html does not have <script> tag.
+In vite , a <script> tag is present inside html where react is passed into html.
+
+NOTE: cmd + shift + p to reload and remove import errors.
