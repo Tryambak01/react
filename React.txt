@@ -55,4 +55,33 @@ with a capital letter.
 Conclusion : basically all the html tags are converted into objects by React (refer React.createElement)
 
 What is react State ?
-    
+    In react there is something known as state , and this state is being constantly monitered , whenever there is a change 
+    in the state , the component is re-rendered.
+
+    useState is a hook , which returns an array containing [variable (in that state), function to modify variable]
+    useState(15) , here i have initialsed the variable inside the useState to 15.
+
+    In React, the useState hook returns an array with two elements. The first element is the current state value,
+    and the second element is a function that allows you to update the state
+
+    setCounter in react accepts one argument , where in you can update the current state to a new state either
+    directly or theough a function
+
+Variable injection in react : Declare variables inside a function and use {varName} inside the div 
+
+Arrow functions in javascript :
+    function () {}
+    is eqvivalent to
+    () => {}
+
+    function (arg1, arg2) {return a*b}
+    is eqvivalent to 
+    (arg1, arg2) => {return a*b}
+
+    also in javascript we can directly assign functions to our variables.
+    ex: let multiply = (a, b) => a * b
+    signifies (a,b) are the arguments for the function which returns a times b.
+
+JavaScript is damn cool lmao.
+Note that in JS if an empty {} is used , then it is an empty object
+
