@@ -26,3 +26,33 @@ In cra , react scripts are present in dependencies and are excecuted when npm st
 In vite , a <script> tag is present inside html where react is passed into html.
 
 NOTE: cmd + shift + p to reload and remove import errors.
+
+Javascript :
+    createElement to create an element.
+    innerHTML to add text.
+    setAttribute(name, value) to change features for ex : href and target.
+    appendChild()
+
+React is all about designing and creating components and using them to create a web page.
+
+JSX makes it possible for us to write html inside of react.
+
+How does React.createElement work ?
+    const element = createElement(type, props, ...children)
+     it acepts paraeters in the order typeOfElement , Attributes , Children
+     const atestElement2 = React.createElement (
+        'a',
+        {href : "https://www.google.com", target : "_blank"},
+        'Clicke here lol'
+    )
+    type must be in string , attributes must be in {a:b}
+
+if you are creating an element out of scratch as objects, and there is no need to extract anything out of an element tag , then
+you do not have to use capital letters to call your function in ViteReact.
+if you are returning an html element , then the things inside the html tag needs to be extracted hence , the function must begin 
+with a capital letter.
+
+Conclusion : basically all the html tags are converted into objects by React (refer React.createElement)
+
+What is react State ?
+    
